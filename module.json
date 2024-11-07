@@ -1,0 +1,49 @@
+{
+  "id": "pf2e-vyklades-virtuous-guardian-zinneryte",
+  "title": "PF2e Vyklade's Virtuous Guardian",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "pf2e-vyklades-virtuous-guardian-zinneryte": {
+      "pf2e-homebrew": {
+        "featTraits": {
+			"brand": {
+            "label": "Brand",
+            "description": "<p>Brands are a special powers which channel the fire within your soul. You must be engaged in combat or otherwise be in active danger to activate a brand. When you activate a Brand, it remains active until combat ends, you use another Brand, fall unconscious or perform your Daily Preparations.</p><p>All brands generate an Aura around you, this aura has the Aura, Divine, Emotion, Magical, and Visual traits</p>"
+          },
+			"virtue": {
+            "label": "Virtue",
+            "description": "You've learned how to channel the flame of righteousness within you into a magical power that rivals divininty."
+          },
+			"virtuous-guardian": {
+            "label": "Virtuous Guardian",
+            "description": "This indicates abilities from the Champion (Virtuous Guardian) class."
+          }
+		},
+        "spellTraits": {
+			"virtue": {
+            "label": "Virtue",
+            "description": "You've learned how to channel the flame of righteousness within you into a magical power that rivals divininty."
+          }
+		}
+	  }
+	}
+  },
+  "packs": [
+    {
+      "name": "pf2e-virtuous-guardian-zinneryte",
+      "label": "PF2e Virtuous Guardian",
+      "path": "packs/pf2e-virtuous-guardian",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
